@@ -1,0 +1,1 @@
+The difference between virtual address and physical memory is that physical memory exists, whereas virtual memory is just an abstraction over physical memory in order to extend the hysical one.

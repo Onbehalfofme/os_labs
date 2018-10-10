@@ -1,0 +1,2 @@
+The answer is 8. Since we have 8 KB pages, we need 13 bits for offset. It is left 3 bits for virtual pages. That is why there are 2^3 = 8 entries.
+
