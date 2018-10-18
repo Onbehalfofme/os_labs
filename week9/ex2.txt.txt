@@ -1,0 +1,1 @@
+In order to have increased hit rate, reference sequence should consist of repeating references within the size of page frames. This would help since each reference wouldn't manage to age because each hit renew counter.
