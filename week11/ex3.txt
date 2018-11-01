@@ -1,0 +1,1 @@
+C uses stdout stream for output, which is line-buffered. That is why in the left example will repeat the "Hello" twice, since buffere was not cleared for stdout. And in the left the buffer is cleared because of "\n" and there is no repetitions.
