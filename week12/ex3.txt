@@ -1,0 +1,43 @@
+Async
+Buffer size = 1
+real    0m0.024s
+user    0m0.000s
+sys     0m0.000s
+
+Buffer size = 10
+real    0m0.025s
+user    0m0.000s
+sys     0m0.000s
+
+Buffer size = 100
+real    0m0.024s
+user    0m0.000s
+sys     0m0.000s
+
+Buffer size = 1000
+real    0m0.022s
+user    0m0.000s
+sys     0m0.016s
+
+Sync
+Buffer size = 1
+real    0m0.039s
+user    0m0.000s
+sys     0m0.000s
+
+Buffer size = 10
+real    0m0.025s
+user    0m0.000s
+sys     0m0.000s
+
+Buffer size = 100  
+real    0m0.025s
+user    0m0.000s
+sys     0m0.016s
+
+Buffer size = 1000
+real    0m0.022s
+user    0m0.000s
+sys     0m0.000s
+
+Using the SYNC is slowing down the process since "Write operations on the file will complete according to the requirements of synchronized I/O file integrity completion"
