@@ -1,0 +1,3 @@
+Recovery is simple approach as it does not predict anything, but it can interrupt the work of proccess. It should be used when deadlock occured.
+Avoidance is not always appropriate since we can't know the information about usage of recources by processes
+Preventing is good when we know nothing about resource usage.
